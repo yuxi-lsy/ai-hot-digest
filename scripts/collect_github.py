@@ -9,7 +9,6 @@ import os
 from datetime import datetime
 from pathlib import Path
 import requests
-from bs4 import BeautifulSoup
 
 def collect_github_trending():
     """收集 GitHub Trending 项目"""
